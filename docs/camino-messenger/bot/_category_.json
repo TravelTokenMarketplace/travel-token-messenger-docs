@@ -1,0 +1,8 @@
+{
+  "label": "Messenger Bot",
+  "position": 5,
+  "link": {
+    "type": "doc",
+    "id": "camino-messenger/bot/index"
+  }
+}
