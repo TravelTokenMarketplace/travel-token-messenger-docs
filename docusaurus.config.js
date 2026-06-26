@@ -98,7 +98,7 @@ const config = {
             items: [
               {
                 label: 'Introduction',
-                to: '/docs/camino-messenger/introduction',
+                to: '/docs/travel-token-messenger/introduction',
               },
             ],
           },

@@ -207,7 +207,7 @@ The `v1alpha` version first release was done on 18 January 2023. Feedback and re
 
 _(Synced with the protocol-release)_
 
-Every time a new version is released of any of the message types a new version of the bot is released. The latest version of the Camino Messenger Bot can be downloaded from our [Github repository](https://github.com/chain4travel/camino-messenger-bot). The main bot version is the same as the latest protocol release. Technical releases for the bot can result to a minor version increase (for example bot release 6.0.0 and 6.1.0 which both support latest protocol version 6, but bot release 6.1.0 has a technical enhancement without an update to the protocol). The bot version is included in the Matrix message header of each message.
+Every time a new version is released of any of the message types a new version of the bot is released. The latest version of the Camino Messenger Bot can be downloaded from our [Github repository](https://github.com/TravelTokenMarketplace/travel-token-messenger-bot). The main bot version is the same as the latest protocol release. Technical releases for the bot can result to a minor version increase (for example bot release 6.0.0 and 6.1.0 which both support latest protocol version 6, but bot release 6.1.0 has a technical enhancement without an update to the protocol). The bot version is included in the Matrix message header of each message.
 
 #### Bot Version Update without an Update to a Specific Message Type
 
@@ -256,7 +256,7 @@ Protobuf's compact binary serialization format results in smaller message sizes 
 
 In the gRPC metadata you can specify your messageID, from and to wallet addresses, so that the payload remains untouched and encrypted from P2P. You'll also find latency and processing time stamps of the different hops in the metadata, which gives you transparency and helps with troubleshooting. A performance report script is also available in the messenger bot repository.
 
-The `cmp` directory under "camino-messenger-protocol/proto" on Github, represents the core of our protocol definitions, under which you will find Main Message Types in "services" and Nested Messages in "types".
+The `cmp` directory under "travel-token-messenger-protocol/proto" on Github, represents the core of our protocol definitions, under which you will find Main Message Types in "services" and Nested Messages in "types".
 
 ## Main Message Types
 
@@ -316,7 +316,7 @@ So after going through the technical documentation, ask (if any) questions or pr
 
 |          Package          |                                                         Documentation Link                                                          |                                                                Github Link                                                                |
 | :-----------------------: | :---------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------: |
-| Main Module Documentation |                    [Main API Documentation](https://buf.build/chain4travel/camino-messenger-protocol/docs/main)                     |                            [Main Github Repository](https://github.com/chain4travel/camino-messenger-protocol)                            |
+| Main Module Documentation |                    [Main API Documentation](https://buf.build/chain4travel/travel-token-messenger-protocol/docs/main)                     |                            [Main Github Repository](https://github.com/chain4travel/camino-messenger-protocol)                            |
 |   Accommodation Service   | [Accommodation API Documentation](https://buf.build/chain4travel/camino-messenger-protocol/docs/main:cmp.services.accommodation.v1) | [Accommodation Github Repository](https://github.com/chain4travel/camino-messenger-protocol/tree/c4t/proto/cmp/services/accommodation/v1) |
 |     Activity Service      |      [Activity API Documentation](https://buf.build/chain4travel/camino-messenger-protocol/docs/main:cmp.services.activity.v1)      |         [Activity Github Repository](https://buf.build/chain4travel/camino-messenger-protocol/docs/main:cmp.services.activity.v1)         |
 |       Book Service        |          [Book API Documentation](https://buf.build/chain4travel/camino-messenger-protocol/docs/main:cmp.services.book.v1)          |             [Book Github Repository](https://buf.build/chain4travel/camino-messenger-protocol/docs/main:cmp.services.book.v1)             |

@@ -42,7 +42,7 @@ Plugin's responsibilities would include:
   facilitating the integration process.
 
 Example implementation can be found at `examples/rpc/partner-plugin/server.go` within the
-[Camino Messenger Bot repository](https://github.com/chain4travel/camino-messenger-bot).
+[Camino Messenger Bot repository](https://github.com/TravelTokenMarketplace/travel-token-messenger-bot).
 
 :::note
 
@@ -82,4 +82,4 @@ Messenger Bot configuration file.
 An alternative implementation of the Partner Plugin is available in Java
 Spring Boot. For more details, please visit the GitHub repository.
 
-Sprint Boot Partner Plugin repository: https://github.com/chain4travel/camino-messenger-plugin-example-spring-boot
+Sprint Boot Partner Plugin repository: https://github.com/TravelTokenMarketplace/travel-token-messenger-plugin-example-spring-boot

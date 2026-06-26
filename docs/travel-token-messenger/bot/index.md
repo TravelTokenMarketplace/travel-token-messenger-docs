@@ -28,7 +28,7 @@ The Camino Messenger Bot (CMB) is an application that enhances the
 functionality for distributors and service providers by enabling the seamless
 integration of their existing systems with Camino Messenger.
 
-Source code repository: [https://github.com/chain4travel/camino-messenger-bot](https://github.com/chain4travel/camino-messenger-bot)
+Source code repository: [https://github.com/chain4travel/camino-messenger-bot](https://github.com/TravelTokenMarketplace/travel-token-messenger-bot)
 
 **Quick Start:**
 
