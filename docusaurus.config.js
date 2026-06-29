@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Camino Docs',
-  tagline: 'Camino Messenger Documentation',
+  title: 'Travel Token Messenger Docs',
+  tagline: 'Travel Token Messenger Documentation',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -73,7 +73,7 @@ const config = {
       navbar: {
         title: 'TravelTokenMessenger Docs',
         logo: {
-          alt: 'Camino Logo',
+          alt: 'TT Messenger Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -116,7 +116,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/TravelTokenMarketplace/camino-docs',
+                href: 'https://github.com/TravelTokenMarketplace/travel-token-messenger-docs',
               },
             ],
           },
