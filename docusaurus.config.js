@@ -23,12 +23,12 @@ const config = {
   url: 'https://traveltokenmarketplace.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/camino-docs/',
+  baseUrl: '/travel-token-messenger-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'TravelTokenMarketplace', // Usually your GitHub org/user name.
-  projectName: 'camino-docs', // Usually your repo name.
+  projectName: 'travel-token-messenger-docs', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
@@ -52,7 +52,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/TravelTokenMarketplace/camino-docs/tree/main/',
+            'https://github.com/TravelTokenMarketplace/travel-token-messenger-docs/tree/main/',
         },
         blog: false,
         theme: {
@@ -71,7 +71,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Camino Docs',
+        title: 'TravelTokenMessenger Docs',
         logo: {
           alt: 'Camino Logo',
           src: 'img/logo.svg',
@@ -84,7 +84,7 @@ const config = {
             label: 'Documentation',
           },
           {
-            href: 'https://github.com/TravelTokenMarketplace/camino-docs',
+            href: 'https://github.com/TravelTokenMarketplace/travel-token-messenger-docs',
             label: 'GitHub',
             position: 'right',
           },
