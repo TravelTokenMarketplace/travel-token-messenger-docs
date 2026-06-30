@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Travel Token Messenger Docs',
   tagline: 'Travel Token Messenger Documentation',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/messenger/logo_ttm_edited.avif',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
