@@ -14,17 +14,9 @@ change.
 
 :::
 
-:::caution 🚧 ALPHA CODE NOTICE 🚧
-
-This application is in the alpha phase of development. It is important to note
-that during this stage, breaking changes may occur without advance notice.
-Users should proceed with caution.
-
-:::
-
 ## What is Partner Plugin?
 
-The Partner Plugin serves as a bridge enabling the Camino Messenger Bot to
+The Partner Plugin serves as a bridge enabling the Travel Token Messenger Bot to
 integrate seamlessly with pre-existing systems. This tool is crafted for both
 distributors and providers, coming equipped with a reference implementation
 to illustrate potential integration strategies.
@@ -42,7 +34,7 @@ Plugin's responsibilities would include:
   facilitating the integration process.
 
 Example implementation can be found at `examples/rpc/partner-plugin/server.go` within the
-[Camino Messenger Bot repository](https://github.com/TravelTokenMarketplace/travel-token-messenger-bot).
+[Travel Token Messenger Bot repository](https://github.com/TravelTokenMarketplace/travel-token-messenger-bot).
 
 :::note
 
@@ -58,7 +50,7 @@ incorporate request types that are not applicable to the partner's services.
 ### Compiling the Partner Plugin
 
 Before compiling the Partner Plugin, ensure you have followed the
-[installation steps](installation#compiling-from-source) for the Camino Messenger Bot.
+[installation steps](installation#compiling-from-source) for the Travel Token Messenger Bot.
 
 After completing the installation, execute the following command:
 
@@ -74,12 +66,13 @@ Execute the Partner Plugin with the following command in the shell:
 PORT=50051 ./plugin
 ```
 
-Ensure the port number aligns with what you've configured in the Camino
+Ensure the port number aligns with what you've configured in the Travel Token
 Messenger Bot configuration file.
 
 ## Java Spring Boot Implementation
 
 An alternative implementation of the Partner Plugin is available in Java
-Spring Boot. For more details, please visit the GitHub repository.
+Spring Boot. It's maintenance has been discontinued .For more details, please visit
+the Chain4Travek GitHub repository.
 
-Sprint Boot Partner Plugin repository: https://github.com/TravelTokenMarketplace/travel-token-messenger-plugin-example-spring-boot
+Spring Boot Partner Plugin repository on C4T repo: https://github.com/chain4travel/camino-messenger-plugin-example-spring-boot
