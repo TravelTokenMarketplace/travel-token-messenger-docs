@@ -76,7 +76,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'TravelTokenMessenger Docs',
+        title: 'Travel Token Messenger Docs',
         logo: {
           alt: 'TT Messenger Logo',
           src: 'img/messenger/logo_ttm_edited.avif',
