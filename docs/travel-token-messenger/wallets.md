@@ -1,6 +1,6 @@
 ---
-sidebar_position: 4
-title: Creating a Wallet for the Bot
+sidebar_position: 10
+title: Creating a Wallet
 description: How to create a wallet for use with the Travel Token Account and Messenger Bot
 ---
 
