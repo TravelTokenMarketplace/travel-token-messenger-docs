@@ -35,8 +35,13 @@ The Camino Messenger used to mint and transact exclusively on the Camino blockch
 
 One wallet can be used on several EVM chains, conclusively if partners want to trade for example on Polygon, Arbitrum, Optimism, BNB/BSC, or Gnosis. The multi-chain set-up is fairly simple and the on- and off-ramping conditions will be a major consideration to select the chain of your choice.
 
+### Fees
+The Camino Messenger used to have an extensive fee mechanism, with a purpose to fight exponentially worsening look-to-book ratios. If search messages are free, there is no incentive to work on improving the searches required for a booking.
+
+For simplicity and to improve adoption, TTM has decided to remove the message fees for the time being. This means that no funds are required for static data updates, searches and validate messages. Funds are required in the native currency on the specific blockchain for the mint messages, bot on the Supplier side (to mint the travel Token NFT) as well on the Distributor side (to buy the NFT).
+
 ### Naming Conventions
-The words of brand names are all written separately with each word capitalized. Examples: Travel Token Marketplace,Travel Token Protocol, Travel Token Message Types, etc.
+The words of brand names are all written separately with each word capitalized. Examples: Travel Token Marketplace,Travel Token Messenger Protocol, Travel Token Message Types, etc.
 For technical aspects like files and folders we use lowercase with hyphens. For example: travel-token-messenger, tt-messenger,travel-token-messenger-bot, tt-messenger-bot, etc..
 
 ## Messenger
@@ -59,9 +64,9 @@ The Travel Token Messenger is a decentralized network of messenger servers hoste
 
 <figure>
 
-<div style={{maxWidth: '484px', margin: '0 auto'}}>
+<div style={{maxWidth: '350px', margin: '0 auto'}}>
 
-![This image displays the Messenger bots installed in the partner's systems and the decentralized Messenger Server](/img/messenger/messenger_bots.png)
+![This image displays the Messenger bots installed in the partner's systems and the decentralized Messenger Server](/img/messenger/messenger_bots_ttm.png)
 
 </div>
 
